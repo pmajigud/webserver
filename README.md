@@ -36,4 +36,4 @@ docker images |grep myweb
 docker run -it --rm -p 80:80 myweb
 #Check if container is running at 8080
 curl localhost:8080
-#Point your browser to http://localhost:8080
+Point your browser to http://localhost:8080
