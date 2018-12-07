@@ -12,16 +12,19 @@ cd myweb
 
 #Create Dockerfile
 vi Dockerfile
+-----
 FROM nginx:alpine
 COPY index.html /usr/share/nginx/index.html
-
+-----
 #Create index.html
 vi index.html
+----
 <html>
 <body>
 Hello Plastiq World!
 </body>
 </html>
+----
 
 #Build your image from Dockerfile
 docker build -t myweb .
